@@ -1,0 +1,69 @@
+#content {
+    display: flex;
+    background-color: green;
+    justify-content: center;
+}
+
+.title {
+    height: 200px;
+    width: 800px;
+    font-size: 3rem;
+    background-color: blue;
+}
+
+.imgDiv{
+    background-color: yellow;
+    background-image: url('restaurant.png');
+    border-radius: 30px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.itemName {
+    font-size: 3.5rem;
+    height: 40%;
+    width: 100%;
+    color:black;
+}
+
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    height: 300px;
+    width: 800px;
+    background-color: black;
+    border: 5px solid blue;
+    border-radius: 40px;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menuTextWrapper {
+    display: flex;
+    flex-flow: column;
+    background-color: grey;
+    height: 100%;
+    width: 70%;
+}
+
+.description {
+    align-self: center;
+    height: 60%;
+    width: 100%;
+    font-size: 1.3rem;
+    color:white;
+}
+
+.price {
+    align-self: center;
+    text-align: center;
+    font-size: 8rem;
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: white;
+}
