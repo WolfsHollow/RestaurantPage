@@ -8,7 +8,7 @@ contactPage.classList.add('contactPage');
 
 const contactTitle = document.createElement('div');
 contactTitle.textContent = 'Contact Us';
-contactPage.classList.add('contactTitle');
+contactTitle.classList.add('contactTitle');
 
 contactPage.appendChild(contactTitle);
 

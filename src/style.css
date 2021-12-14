@@ -3,6 +3,8 @@
     flex-flow: column;
     height: 100%;
     width: 100%;
+    /* height: 100vh;
+    width: 100vw; */
     background: url('./background.png');
     background-repeat: repeat;
     justify-content: center;
@@ -15,6 +17,7 @@
     height: 40px;
     background: rgb(22,32,135);
     background: linear-gradient(0deg, rgba(22,32,135,1) 5%, rgba(45,138,253,1) 100%);
+    background-image: url('darknight.jpg');
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -83,6 +86,26 @@
 }
 
 /* Menu Page */
+
+.menuPage{
+    display: flex;
+    gap: 10px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuTitle {
+    font-size: 5rem;
+    background-color: white;
+    color: white;
+    height: 100px; 
+    width: 600px;
+    background-image: url('darknight.jpg');
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 30px;
+} 
 
 .title {
     height: 200px;
@@ -159,13 +182,15 @@
 .contactPage{
     display: flex;
     flex-flow: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
 .contactTitle{
     font-size: 5rem;
     color: white;
-    /* height: 100px; */
+    height: 100px;
     width: 600px;
     background-image: url('darknight.jpg');
     text-align: center;

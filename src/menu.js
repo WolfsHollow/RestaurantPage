@@ -7,10 +7,11 @@ import FMPpic from './FragrantMashedPotatoes.png';
 import CGIpic from './ComeGetIt.png';
 
 const menu = document.createElement('div');
-const menuTitle = document.createElement('div');
+menu.classList.add('menuPage');
 
-menuTitle.classList.add('menuTitle');
+const menuTitle = document.createElement('div');
 menuTitle.textContent = 'Menu';
+menuTitle.classList.add('menuTitle');
 
 menu.appendChild(menuTitle);
 
