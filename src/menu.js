@@ -7,6 +7,12 @@ import FMPpic from './FragrantMashedPotatoes.png';
 import CGIpic from './ComeGetIt.png';
 
 const menu = document.createElement('div');
+const menuTitle = document.createElement('div');
+
+menuTitle.classList.add('menuTitle');
+menuTitle.textContent = 'Menu';
+
+menu.appendChild(menuTitle);
 
 let menuObjectArray = [];
 

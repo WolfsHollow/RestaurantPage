@@ -1,6 +1,7 @@
 import './style.css';
 import home from './titlePage.js';
 import menu from './menu.js';
+import contact from './contact.js';
 
 const body = document.getElementById('content');
 
